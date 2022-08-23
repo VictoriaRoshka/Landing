@@ -1,0 +1,65 @@
+header {
+    background-image: url(hero.jpg);
+    background-size:cover;
+}
+.head-line{
+    display: flex;
+    justify-content: space-between;
+
+}
+.content{
+    width: 1024px;
+    margin: 0 auto;
+}
+.head-line__logo{
+    width: 100px;
+    height: 100px;
+}
+.head-line__icon{
+    width: 15px;
+    margin-bottom: 30px;
+}
+.head-line__navigation{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 50px;
+    display:flex;
+    gap: 30px;
+}
+.head-line__contacts{
+    margin-top: 50px;
+    display: flex;
+    gap:10px;
+    font-family: 'Nunito Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.main-text{
+    width: 400px;
+    margin-top:150px;
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color:#1c1917;
+}
+    .little-text{
+        margin-top: 30px;
+        width:400px;
+        font-family: 'Nunito Sans', sans-serif;
+        color:#78716c;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .button{
+        width: 300px;
+        margin-top: 30px;
+        background-color: #ea580c;
+        color:#fafaf9;
+        padding: 25px;
+        font-size:20px ;
+        border-radius: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+        box-shadow: 1px 1px 4px #d6d3d1;
+
+    }
+
