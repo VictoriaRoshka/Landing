@@ -51,7 +51,7 @@ header {
     }
     .button{
         width: 300px;
-        margin-top: 30px;
+        margin-top: 50px;
         background-color: #ea580c;
         color:#fafaf9;
         padding: 25px;
@@ -61,5 +61,8 @@ header {
         font-weight: 300;
         box-shadow: 1px 1px 4px #d6d3d1;
 
+    }
+    .button-box{
+        padding-bottom: 200px;
     }
 
