@@ -1,3 +1,6 @@
+html{
+    --primary-color:#1c1917;
+}
 header {
     background-image: url(hero.jpg);
     background-size:cover;
@@ -5,6 +8,7 @@ header {
 .head-line{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .content{
@@ -17,21 +21,18 @@ header {
 }
 .head-line__icon{
     width: 15px;
-    margin-bottom: 30px;
 }
 .head-line__navigation{
     font-family: 'Nunito Sans', sans-serif;
-    margin-top: 50px;
     display:flex;
     gap: 30px;
 }
 .head-line__contacts{
-    margin-top: 50px;
+    
     display: flex;
-    gap:10px;
+    gap:15px;
     font-family: 'Nunito Sans', sans-serif;
     align-items: center;
-    justify-content: center;
 }
 .main-text{
     width: 400px;
@@ -39,7 +40,7 @@ header {
     font-size: 50px;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
-    color:#1c1917;
+    color:var(--primary-color);
 }
     .little-text{
         margin-top: 30px;
@@ -64,5 +65,48 @@ header {
     }
     .button-box{
         padding-bottom: 200px;
+    }
+    .benefits-box__title{
+        color:var(--primary-color);
+        font-size: 30px;
+        font-weight: 500;
+        font-family:'Nunito Sans', sans-serif;
+        padding: 50px 0px 50px 0px;
+        margin: 50px 0px 50px 0px;
+    }
+    .benefits-box__items{
+        display: flex;
+        gap: 40px;
+    }
+    .benefits-box__item{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:rgb(245, 244, 246);
+        border-radius: 5px;
+        padding: 20px 0px 20px 0px;
+        margin-bottom: 100px;
+        
+    
+    }
+    .benefits-box__item-title{
+        font-size: 20px;
+        font-family: 'Nunito Sans', sans-serif;
+        margin:20px 0px 10px 0px;
+        color:#44403c;
+    }
+
+    .benefits-box__item-text{
+        font-size: 17px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #78716c;
+        margin:10px 0px 10px 0px;
+        padding:10px 20px 10px 20px;
+    }
+    .benefits-box__item-icon{
+        width: 30px;
+        background-color: #f97316;
+        padding: 10px;
+        border-radius: 10px;
     }
 
