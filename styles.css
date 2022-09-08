@@ -41,6 +41,7 @@ header {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
     color:var(--primary-color);
+    text-align: left;
 }
     .little-text{
         margin-top: 30px;
@@ -50,7 +51,7 @@ header {
         font-size: 20px;
         font-weight: 100;
     }
-    .button{
+    .button-box__button{
         width: 300px;
         margin-top: 50px;
         background-color: #ea580c;
@@ -61,6 +62,7 @@ header {
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 300;
         box-shadow: 1px 1px 4px #d6d3d1;
+        
 
     }
     .button-box{
@@ -73,6 +75,8 @@ header {
         font-family:'Nunito Sans', sans-serif;
         padding: 50px 0px 50px 0px;
         margin: 50px 0px 50px 0px;
+        text-align: center;
+    
     }
     .benefits-box__items{
         display: flex;
@@ -111,7 +115,7 @@ header {
     }
     .group-people{
         display: flex;
-        padding: 50px 0px 100px 0px;
+        padding: 50px 0px 50px 0px;
     
     }
     .group-people__textbox{
@@ -137,5 +141,57 @@ header {
         width: 500px;
         margin-left: 50px;
     }
+    .form-container{
+        background-color: #FFEDD5;
+        padding:50px 0px 50px 0px;
+    }
+    .form-container_title{
+    color:var(--primary-color);
+        font-size: 30px;
+        font-weight: 600;
+        font-family:'Nunito Sans', sans-serif;
+        margin: 50px 0px 20px 0px;
+        text-align: center;
+    }
+    .form-container__text{
+        font-family: 'Nunito Sans', sans-serif;
+        color:#78716c;
+        font-size: 18px;
+        font-weight: 100;
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+    .form-container__items{
+        display:flex;
+        padding:50px 0px 50px 0px;
+        justify-content:center;
+        align-items: center;
+    }
+    .form-container__item {
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        border-color:#fafaf9;
+        margin: 20px;
+    }
+    ::placeholder{
+        font-size: 18px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .form-container__button{
+        background-color: #ea580c;
+        color:#fafaf9;
+        font-size:20px ;
+        border-radius: 10px;
+        border-color:#fafaf9;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight:500;
+        box-shadow: 1px 1px 4px #d6d3d1;
+        height: 40px;
+
+    }
+    
+
 
 
