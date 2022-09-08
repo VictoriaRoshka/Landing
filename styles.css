@@ -69,7 +69,7 @@ header {
     .benefits-box__title{
         color:var(--primary-color);
         font-size: 30px;
-        font-weight: 500;
+        font-weight: 600;
         font-family:'Nunito Sans', sans-serif;
         padding: 50px 0px 50px 0px;
         margin: 50px 0px 50px 0px;
@@ -109,4 +109,33 @@ header {
         padding: 10px;
         border-radius: 10px;
     }
+    .group-people{
+        display: flex;
+        padding: 50px 0px 100px 0px;
+    
+    }
+    .group-people__textbox{
+        display:flex;
+        flex-direction: column;
+        width: 500px;
+        gap:30px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .group-people__text{
+        margin-top: 20px;
+        font-size: 17px;
+        color: #78716c;
+    }
+    .group-people__title{
+        color:var(--primary-color);
+        font-size: 30px;
+        font-weight: 600;
+        font-family:'Nunito Sans', sans-serif;
+        margin: 50px 0px px 0px;
+    }
+    .group-people__image{
+        width: 500px;
+        margin-left: 50px;
+    }
+
 
