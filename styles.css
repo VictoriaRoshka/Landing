@@ -1,5 +1,6 @@
 html{
     --primary-color:#1c1917;
+    --primary-color2:#f97316;
 }
 header {
     background-image: url(hero.jpg);
@@ -34,6 +35,46 @@ header {
     font-family: 'Nunito Sans', sans-serif;
     align-items: center;
 }
+.tarifflink:link{
+    color:#44403c;
+    text-decoration: none;
+}
+.tarifflink.focus{
+    color:var(--primary-color2)
+    text-decoration: none;
+}
+.tarifflink:visited{
+    color:#78716c
+    text-decoration: none;
+
+}
+.feedbacklink:link{
+    color:#44403c;
+    text-decoration: none;
+}
+.feedbacklink:focus{
+    color:var(--primary-color2)
+    text-decoration: none;
+
+}
+.feedbacklink:visited{
+    color:#78716c
+    text-decoration: none;
+
+}
+a:link{
+    color:#fafaf9;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+a:focus{
+    color:var(--primary-color2); 
+}
+a:visited{
+    color:#d6d3d1;
+}
+
 .main-text{
     width: 400px;
     margin-top:150px;
@@ -109,7 +150,7 @@ header {
     }
     .benefits-box__item-icon{
         width: 30px;
-        background-color: #f97316;
+        background-color: var(--primary-color2);
         padding: 10px;
         border-radius: 10px;
     }
@@ -273,7 +314,7 @@ header {
     }
 
     .rate-title{
-        color: #f97316;
+        color: var(--primary-color2);
         font-size: 20px;
         font-family:'Nunito Sans', sans-serif;
 
@@ -295,7 +336,7 @@ header {
         background-color: #ffedd5;
         width: 300px;
         padding: 10px;
-        color:#f97316;
+        color:var(--primary-color2);
         font-size: 16px;
         font-family: 'Nunito Sans', sans-serif;
         border-style: none;
@@ -342,7 +383,13 @@ header {
         font-family: 'Nunito Sans', sans-serif;
         color: #78716c;
     }
-    
+    .iconlink:focus{
+        color:#1c1917;
+    }
+    .iconlink:visited{
+        color:#fafaf9;
+
+    }
 
 
 
