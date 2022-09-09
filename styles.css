@@ -145,7 +145,7 @@ header {
         background-color: #FFEDD5;
         padding:50px 0px 50px 0px;
     }
-    .title{
+    .form-container__title{
     color:var(--primary-color);
         font-size: 30px;
         font-weight: 600;
@@ -232,7 +232,117 @@ header {
         font-size: 16px;
         font-family: 'Nunito Sans', sans-serif;
         color: #78716c;
-        padding-bottom: 30px;    }
+        padding-bottom: 30px;
+    }
+    .tariff-container{
+        margin:0 auto;
+        padding-bottom: 100px;
+    }
+    .tariff-container__items{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    .tariff-container__box{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 3;
+        border: 1px solid #E7E5E4;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        height: 300px;
+    }
+
+    .tariff-container__title{
+        color:var(--primary-color);
+        font-size: 32px;
+        font-weight: 600;
+        font-family:'Nunito Sans', sans-serif;
+        padding-top: 50px;
+        text-align: center;
+
+    }
+    .rate-details{
+        margin:10px 0px 30px 0px;
+    }
+
+    .rate-title{
+        color: #f97316;
+        font-size: 20px;
+        font-family:'Nunito Sans', sans-serif;
+
+    }
+    .rate-price{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 22px;
+        margin: 10px 0px 20px 0px;
+    
+    }
+    .rate-detail{
+        display: flex;
+        font-size: 16px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #78716c;
+        box-sizing: border-box;
+    }
+    .rate-button{
+        background-color: #ffedd5;
+        width: 300px;
+        padding: 10px;
+        color:#f97316;
+        font-size: 16px;
+        font-family: 'Nunito Sans', sans-serif;
+        border-style: none;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+    .rate-detail__icon{
+        width: 20px;
+        height: 20px;
+        color: #65A30D;
+        margin-right: 5px;
+    }
+
+    .landing-footer{
+        background-color:#d6d3d1;
+        padding: 60px;
+        display: flex;
+
+    }
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .phone-number{
+        display: flex;
+        align-items: center;
+        font-family: 'Nunito Sans', sans-serif;
+        color:#78716c;
+    }
+    .pnone-number__icon{
+        width: 20px;
+        margin-right: 10px;
+
+    }
+    .icons-container{
+        display:flex;
+        
+    }
+    .icons-container__item{
+        width: 20px;
+        margin-left: 10px;
+    }
+    .email-container{
+        font-family: 'Nunito Sans', sans-serif;
+        color: #78716c;
+    }
+    
 
 
 
