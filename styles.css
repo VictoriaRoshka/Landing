@@ -324,11 +324,11 @@ header {
         align-items: center;
         font-family: 'Nunito Sans', sans-serif;
         color:#78716c;
+        box-sizing: border-box;
     }
-    .pnone-number__icon{
+    .phone-number__icon{
         width: 20px;
         margin-right: 10px;
-
     }
     .icons-container{
         display:flex;
