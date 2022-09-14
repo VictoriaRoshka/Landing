@@ -327,6 +327,7 @@ header {
     .rate-button:hover{
         background-color: var(--primary-color2);
         color:aliceblue;
+        cursor: pointer;
     }
     
     .rate-detail__icon{
