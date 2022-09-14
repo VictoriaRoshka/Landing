@@ -1,7 +1,9 @@
 html{
     --primary-color:#1c1917;
     --primary-color2:#f97316;
+    
 }
+
 header {
     background-image: url(hero.jpg);
     background-size:cover;
@@ -24,7 +26,6 @@ header {
     width: 15px;
 }
 .head-line__navigation{
-    font-family: 'Nunito Sans', sans-serif;
     display:flex;
     gap: 30px;
 }
@@ -32,54 +33,33 @@ header {
     
     display: flex;
     gap:15px;
-    font-family: 'Nunito Sans', sans-serif;
     align-items: center;
 }
-.tarifflink:link{
+.tarifflink{
+    text-decoration: none;
+    color:#44403c;
+    
+}
+.tarifflink:hover{
+    color: var(--primary-color2);
+
+}
+
+.feedbacklink{
     color:#44403c;
     text-decoration: none;
 }
-.tarifflink.focus{
-    color:var(--primary-color2)
-    text-decoration: none;
+.feedbacklink:hover{
+    color: var(--primary-color2);
+    
 }
-.tarifflink:visited{
-    color:#78716c
-    text-decoration: none;
 
-}
-.feedbacklink:link{
-    color:#44403c;
-    text-decoration: none;
-}
-.feedbacklink:focus{
-    color:var(--primary-color2)
-    text-decoration: none;
-
-}
-.feedbacklink:visited{
-    color:#78716c
-    text-decoration: none;
-
-}
-a:link{
-    color:#fafaf9;
-    text-decoration: none;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
-}
-a:focus{
-    color:var(--primary-color2); 
-}
-a:visited{
-    color:#d6d3d1;
-}
 
 .main-text{
     width: 400px;
     margin-top:150px;
     font-size: 50px;
-    font-family: 'Nunito Sans', sans-serif;
+    
     font-weight: 600;
     color:var(--primary-color);
     text-align: left;
@@ -87,7 +67,6 @@ a:visited{
     .little-text{
         margin-top: 30px;
         width:400px;
-        font-family: 'Nunito Sans', sans-serif;
         color:#78716c;
         font-size: 20px;
         font-weight: 100;
@@ -97,14 +76,24 @@ a:visited{
         margin-top: 50px;
         background-color: #ea580c;
         color:#fafaf9;
-        padding: 25px;
-        font-size:20px ;
-        border-radius: 20px;
-        font-family: 'Nunito Sans', sans-serif;
-        font-weight: 300;
+        padding: 15px;
+        border-radius: 10px;
         box-shadow: 1px 1px 4px #d6d3d1;
-        
 
+    }
+   
+    .button-box__link{
+        text-decoration: none;
+        font-size:20px;
+        font-weight: 300px;
+        text-align: center;
+        color:#fafaf9;
+
+    }
+    .button-box__link:hover{
+        text-decoration: none;
+        color:#44403c;
+        
     }
     .button-box{
         padding-bottom: 200px;
@@ -113,7 +102,6 @@ a:visited{
         color:var(--primary-color);
         font-size: 32px;
         font-weight: 600;
-        font-family:'Nunito Sans', sans-serif;
         padding: 50px 0px 50px 0px;
         margin: 50px 0px 50px 0px;
         text-align: center;
@@ -122,6 +110,7 @@ a:visited{
     .benefits-box__items{
         display: flex;
         gap: 40px;
+        margin-bottom: 100px;
     }
     .benefits-box__item{
         display:flex;
@@ -130,7 +119,7 @@ a:visited{
         background-color:rgb(245, 244, 246);
         border-radius: 5px;
         padding: 20px 0px 20px 0px;
-        margin-bottom: 100px;
+        
         
     
     }
@@ -143,7 +132,6 @@ a:visited{
 
     .benefits-box__item-text{
         font-size: 17px;
-        font-family: 'Nunito Sans', sans-serif;
         color: #78716c;
         margin:10px 0px 10px 0px;
         padding:10px 20px 10px 20px;
@@ -164,7 +152,6 @@ a:visited{
         flex-direction: column;
         width: 500px;
         gap:30px;
-        font-family: 'Nunito Sans', sans-serif;
     }
     .group-people__text{
         margin-top: 20px;
@@ -175,7 +162,6 @@ a:visited{
         color:var(--primary-color);
         font-size: 30px;
         font-weight: 600;
-        font-family:'Nunito Sans', sans-serif;
         margin: 50px 0px px 0px;
     }
     .group-people__image{
@@ -190,12 +176,10 @@ a:visited{
     color:var(--primary-color);
         font-size: 30px;
         font-weight: 600;
-        font-family:'Nunito Sans', sans-serif;
         margin: 50px 0px 20px 0px;
         text-align: center;
     }
     .form-container__text{
-        font-family: 'Nunito Sans', sans-serif;
         color:#78716c;
         font-size: 18px;
         font-weight: 100;
@@ -216,9 +200,12 @@ a:visited{
         border-color:#fafaf9;
         margin: 20px;
     }
+    .form-container__item:focus{
+        outline: 3px var(--primary-color2) solid;
+        border:none;
+    }
     ::placeholder{
         font-size: 18px;
-        font-family: 'Nunito Sans', sans-serif;
     }
     .form-container__button{
         background-color: #ea580c;
@@ -226,17 +213,18 @@ a:visited{
         font-size:20px ;
         border-radius: 10px;
         border-color:#fafaf9;
-        font-family: 'Nunito Sans', sans-serif;
         font-weight:500;
         box-shadow: 1px 1px 4px #d6d3d1;
         height: 40px;
 
     }
+    .form-container__button:hover{
+        color:#44403c;
+    }
     .form-container__title{
         color:var(--primary-color);
         font-size: 32px;
         font-weight: 600;
-        font-family:'Nunito Sans', sans-serif;
         margin: 100px 0px 20px 0px;
         text-align: center;
 
@@ -258,20 +246,17 @@ a:visited{
         color:var(--primary-color);
         font-size: 32px;
         font-weight: 600;
-        font-family:'Nunito Sans', sans-serif;
         padding: 50px 0px 50px 0px;
         margin: 50px 0px 50px 0px;
         text-align: center;
     }
     .feedback-container__name{
         font-size: 20px;
-        font-family: 'Nunito Sans', sans-serif;
         margin:20px 0px 10px 0px;
         color:#44403c;
     }
     .feedback-container__text{
         font-size: 16px;
-        font-family: 'Nunito Sans', sans-serif;
         color: #78716c;
         padding-bottom: 30px;
     }
@@ -283,14 +268,13 @@ a:visited{
         display: flex;
         justify-content:space-between;
         align-items: center;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 50px 0px;
         margin: 0 auto;
+        flex-grow: 4;
     }
     .tariff-container__box{
         display: flex;
         flex-direction: column;
-        flex-grow: 3;
         border: 1px solid #E7E5E4;
         border-radius: 10px;
         padding: 20px;
@@ -304,9 +288,9 @@ a:visited{
         color:var(--primary-color);
         font-size: 32px;
         font-weight: 600;
-        font-family:'Nunito Sans', sans-serif;
         padding-top: 50px;
         text-align: center;
+        margin-bottom: 50px;
 
     }
     .rate-details{
@@ -316,11 +300,9 @@ a:visited{
     .rate-title{
         color: var(--primary-color2);
         font-size: 20px;
-        font-family:'Nunito Sans', sans-serif;
 
     }
     .rate-price{
-        font-family: 'Nunito Sans', sans-serif;
         font-size: 22px;
         margin: 10px 0px 20px 0px;
     
@@ -328,21 +310,25 @@ a:visited{
     .rate-detail{
         display: flex;
         font-size: 16px;
-        font-family: 'Nunito Sans', sans-serif;
         color: #78716c;
         box-sizing: border-box;
     }
     .rate-button{
         background-color: #ffedd5;
+        color:var(--primary-color2);
         width: 300px;
         padding: 10px;
-        color:var(--primary-color2);
         font-size: 16px;
-        font-family: 'Nunito Sans', sans-serif;
         border-style: none;
         border-radius: 5px;
         font-weight: 500;
+        transition: all 500ms;
     }
+    .rate-button:hover{
+        background-color: var(--primary-color2);
+        color:aliceblue;
+    }
+    
     .rate-detail__icon{
         width: 20px;
         height: 20px;
@@ -363,7 +349,6 @@ a:visited{
     .phone-number{
         display: flex;
         align-items: center;
-        font-family: 'Nunito Sans', sans-serif;
         color:#78716c;
         box-sizing: border-box;
     }
@@ -380,16 +365,12 @@ a:visited{
         margin-left: 10px;
     }
     .email-container{
-        font-family: 'Nunito Sans', sans-serif;
         color: #78716c;
     }
-    .iconlink:focus{
+    .icon:hover {
         color:#1c1917;
     }
-    .iconlink:visited{
-        color:#fafaf9;
-
-    }
+    
 
 
 
