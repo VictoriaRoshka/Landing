@@ -5,7 +5,7 @@ html{
 }
 
 header {
-    background-image: url(images\hero.jpg);
+    background-image: url(images/hero.jpg);
     background-size:cover;
 }
 .head-line{
