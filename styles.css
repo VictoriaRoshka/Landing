@@ -398,6 +398,7 @@ header {
     .footer-container{
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
     .phone-number{
         display: flex;
@@ -416,9 +417,13 @@ header {
     .icons-container__item{
         width: 20px;
         margin-left: 10px;
+        
     }
     .email-container{
         color: #78716c;
+    }
+    .icon{
+        color:#78716c;
     }
     .icon:hover {
         color:#1c1917;
