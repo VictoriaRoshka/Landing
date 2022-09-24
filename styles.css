@@ -3,11 +3,55 @@ html{
     --primary-color2:#f97316;
     
 }
+@media(max-width:600px){
+    .head-line{
+        flex-wrap: wrap;
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .content{
+        margin: 0 auto;;
+    }
+    .text-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits-box__items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .group-people{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-container__items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tariff-container__items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+
+}
+    
+
 
 header {
     background-image: url(images/hero.jpg);
     background-size:cover;
 }
+
+
 .head-line{
     display: flex;
     justify-content: space-between;
@@ -15,7 +59,7 @@ header {
 
 }
 .content{
-    width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 .head-line__logo{
@@ -230,7 +274,7 @@ header {
 
     }
     .feedback-container__feedbacks{
-        width: 600px;
+        max-width: 600px;
         margin: 0 auto;
         padding-bottom: 100px;
         
