@@ -41,6 +41,7 @@ html{
         flex-direction: column;
         align-items: center;
         max-width: 100%;
+        flex-wrap: wrap;
     }
     .footer-container{
         flex-direction: column;
@@ -49,6 +50,14 @@ html{
     
     }
 
+
+}
+@media(max-width:768px){
+    .tariff-container__items{
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
 
 }
     
@@ -111,6 +120,7 @@ header {
     width: 400px;
     margin-top:150px;
     font-size: 50px;
+    max-width: 100%;
     
     font-weight: 600;
     color:var(--primary-color);
@@ -119,12 +129,14 @@ header {
     .little-text{
         margin-top: 30px;
         width:400px;
+        max-width: 100%;
         color:#78716c;
         font-size: 20px;
         font-weight: 100;
     }
     .button-box__button{
         width: 300px;
+        max-width: 100%;
         margin-top: 50px;
         background-color: #ea580c;
         color:#fafaf9;
@@ -197,6 +209,7 @@ header {
     .group-people{
         display: flex;
         padding: 50px 0px 50px 0px;
+        justify-content: space-between;
     
     }
     .group-people__textbox{
@@ -204,6 +217,7 @@ header {
         flex-direction: column;
         width: 500px;
         gap:30px;
+        max-width: 100%;
     }
     .group-people__text{
         margin-top: 20px;
@@ -218,7 +232,7 @@ header {
     }
     .group-people__image{
         width: 500px;
-        margin-left: 50px;
+        max-width: 100%;
     }
     .form-container{
         background-color: #FFEDD5;
@@ -267,7 +281,7 @@ header {
         border-color:#fafaf9;
         font-weight:500;
         box-shadow: 1px 1px 4px #d6d3d1;
-        height: 40px;
+        padding: 10px;
 
     }
     .form-container__button:hover{
@@ -282,7 +296,8 @@ header {
 
     }
     .feedback-container__feedbacks{
-        max-width: 600px;
+        width: 600px;
+        max-width: 100%;
         margin: 0 auto;
         padding-bottom: 100px;
         
@@ -312,17 +327,14 @@ header {
         color: #78716c;
         padding-bottom: 30px;
     }
-    .tariff-container{
-        margin:0 auto;
-        padding-bottom: 100px;
-    }
+  
     .tariff-container__items{
         display: flex;
         justify-content:space-between;
         align-items: center;
         padding-top: 50px 0px;
         margin: 0 auto;
-        flex-grow: 4;
+        flex-wrap: wrap;
     }
     .tariff-container__box{
         display: flex;
@@ -334,6 +346,7 @@ header {
         box-sizing: border-box;
         justify-content: space-between;
         height: 300px;
+        max-width: 100%;
     }
 
     .tariff-container__title{
@@ -375,6 +388,7 @@ header {
         border-radius: 5px;
         font-weight: 500;
         transition: all 500ms;
+        max-width: 100%;
     }
     .rate-button:hover{
         background-color: var(--primary-color2);
