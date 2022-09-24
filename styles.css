@@ -6,38 +6,46 @@ html{
 @media(max-width:600px){
     .head-line{
         flex-wrap: wrap;
+        max-width: 100%;
     }
     .text-container{
         display: flex;
         flex-direction: column;
+        max-width: 100%;
     }
    
     .content{
-        margin: 0 auto;;
+        margin: 0 auto;
     }
     .text-container{
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
     }
     .benefits-box__items{
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
     }
     .group-people{
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
     }
     .form-container__items{
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
     }
     .tariff-container__items{
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
     }
     .footer-container{
         flex-direction: column;
         align-items: center;
+        max-width: 100%;
     
     }
 
