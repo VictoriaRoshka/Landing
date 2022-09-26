@@ -57,8 +57,19 @@ html{
         flex-direction: column;
         align-items: center;
         max-width: 100%;
+        
+    }
+    .form-container__items{
+        flex-direction: column;
     }
 
+}
+@media(max-width: 1024px){
+    .tariff-container__items{
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
 }
     
 
@@ -66,6 +77,7 @@ html{
 header {
     background-image: url(images/hero.jpg);
     background-size:cover;
+    background-position: center;
 }
 
 
@@ -282,6 +294,7 @@ header {
         font-weight:500;
         box-shadow: 1px 1px 4px #d6d3d1;
         padding: 10px;
+        max-width: 100%;
 
     }
     .form-container__button:hover{
@@ -332,9 +345,9 @@ header {
         display: flex;
         justify-content:space-between;
         align-items: center;
-        padding-top: 50px 0px;
+        padding: 20px 0px;
         margin: 0 auto;
-        flex-wrap: wrap;
+
     }
     .tariff-container__box{
         display: flex;
@@ -377,6 +390,8 @@ header {
         font-size: 16px;
         color: #78716c;
         box-sizing: border-box;
+        width: 100%;
+        flex-wrap: wrap;
     }
     .rate-button{
         background-color: #ffedd5;
