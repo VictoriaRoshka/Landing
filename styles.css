@@ -1,90 +1,11 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
 html{
     --primary-color:#1c1917;
     --primary-color2:#f97316;
     
 }
-@media(max-width:600px){
-    .head-line{
-        flex-wrap: wrap;
-        max-width: 100%;
-    }
-    .text-container{
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-    }
-    
-    .content{
-        margin: 0 auto;
-    }
-    .text-container{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    }
-    .benefits-box__items{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    }
-    .group-people{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    }
-    .form-container__items{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    }
-    .tariff-container__items{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-        flex-wrap: wrap;
-    }
-    .footer-container{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    
-    }
-    header{
-        background-color: #d6d3d1;
-        opacity: 0.6;
-    }
-    .little-text__text_colorchange{
-        color:#010101;
-        font-weight: 500;
-        text-shadow:#fafaf9;
-    }
-
-
-}
-@media(max-width:768px){
-    .tariff-container__items{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-        
-    }
-    .form-container__items{
-        flex-direction: column;
-    }
-    
-    
-
-}
-@media(max-width: 1024px){
-    .tariff-container__items{
-        flex-direction: column;
-        align-items: center;
-        max-width: 100%;
-    }
-}
-    
-
-
 header {
     background-image: url(images/hero.jpg);
     background-size:cover;
@@ -468,7 +389,96 @@ header {
     .icon:hover {
         color:#1c1917;
     }
+    @media(max-width: 1024px){
+        .tariff-container__items{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+        .content{
+            margin: 0 20px;
+        }
+    }
+    @media(max-width:768px){
+        .tariff-container__items{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+            
+        }
+        .form-container__items{
+            flex-direction: column;
+        }
+        .content{
+            margin: 0 20px;
+        }
+        
+        
     
+    }
+    @media(max-width:600px){
+        .head-line{
+            flex-wrap: wrap;
+            max-width: 100%;
+        }
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+        }
+        
+        .content{
+            margin: 0 20px;
+        }
+        .text-container{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+        .benefits-box__items{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+        .group-people{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+        .form-container__items{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+        .tariff-container__items{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+            flex-wrap: wrap;
+        }
+        .footer-container{
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        
+        }
+        header{
+            background-image: url(images/hero.jpg);
+            background-color: #ffffff44;
+            background-size:cover;
+            background-position: center;
+            background-blend-mode: soft-light;
+    
+        }
+        .little-text__text_colorchange{
+            color:#010101;
+            font-weight: 500;
+            text-shadow:#fafaf9;
+        }
+    
+    
+    }
+
 
 
 
